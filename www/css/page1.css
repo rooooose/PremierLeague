@@ -1,0 +1,262 @@
+/*background image pour la couronne
+margin left auto pour points
+
+pseudo élément avec after pour dégradé
+
+barre verte = pseudo élément
+
+input type text dans un form, button background-image et un border:none
+auto-complétion
+
+display : grid
+
+overflow: hidden pour enlever barre de scroll générale;
+*/
+
+.wrap
+{
+	padding:0 72px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+body
+{
+	display:flex;
+	overflow: hidden;
+}
+
+img.logotype 
+{
+ 	margin-right: 80px;
+}
+
+nav{
+	padding: 32px 0;
+}
+
+div.div_section1
+{
+	border-radius: 20px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+	background-color: #FFF;
+}
+
+form 
+{
+    border-bottom: 1px solid #e8e8e8;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0 16px 0;
+}
+
+.search_club 
+{
+  width: 95%;
+  height: 64px;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #e8e8e8;
+  border: 0;
+}
+
+form input.button
+{
+	border:none;
+	background-image: url(../images/loupe.svg);
+	width:32px;
+	height: 32px;
+	background-color: #FFF;
+
+}
+
+section:nth-child(1)
+{
+	width:70%;
+	height: 100vh;
+  	overflow: auto;
+}
+
+div.case
+{
+	width: 188px;
+	height: 176px;
+	border-radius: 10px;
+	background-color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: solid 0.9px rgba(0, 0, 0, 0.15);
+	transition-duration: .2s; 
+}
+
+div.case:hover
+{
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+	border: solid 0.9px rgba(0, 0, 0, 0);
+	transition-duration: .2s; 
+}
+
+div.case img
+{
+	width: 40.4px;
+	margin-bottom: 8px;
+}
+
+div.case p
+{
+	width: 156px;
+	height: 24px;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
+	color: #37003c;
+}
+
+div.grid
+{
+	margin: 63px 0;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 16px;
+	grid-row-gap: 16px;
+}
+
+/*Section 2*/
+
+section:nth-child(2)
+{
+	width: 30%;
+	background-image: url("../images/shape-premier-league.svg");
+	background-color: #37003c;
+	background-position: top 0 left 0;
+  	height: 100vh;
+  	overflow: auto;
+  	background-repeat: no-repeat;
+}
+
+section:nth-child(2) .wrap
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:0 85px;
+	z-index: 2;
+	position: relative;
+}
+
+header
+{
+	padding-top: 72px;
+}
+
+header img
+{
+	width: 68px;
+}
+
+div.classement_container
+{
+	width: 100%;
+	margin-top:-30px;
+}
+
+div.classement_container h1
+{
+
+	opacity: 0.1;
+	font-family: Roboto;
+	font-size: 60px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.07;
+	letter-spacing: normal;
+	color: #FFF;
+	margin-bottom: 16px;
+}
+
+div.classement_content
+{
+	border-bottom: 1px solid rgba(255, 255, 455, .1);
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	color: #FFF;
+	font-family: Roboto;
+	display: flex;
+	align-items: center;
+	padding: 8px 0;
+	z-index: 3;
+}
+
+div.classement_content div.logo img
+{
+	width: 17px;
+}
+
+div.classement_content span
+{
+	width: 4px;
+	height: 4px;
+	border-radius: 40%;
+	display: block;
+	background-color: #FFF;
+	margin: 0 10px;
+}
+
+div.logo
+{
+	display: flex;
+	align-items: center;
+	margin-right: 11px;
+}
+
+div.points
+{
+	margin-left: auto;
+}
+
+div.classement
+{
+	border-top: 1px solid rgba(255, 255, 455, .1);
+}
+
+div.gradient
+{
+	width: 100%;
+	height: 140px;
+	background-image: linear-gradient(to top, rgba(55, 0, 60, 1) 0%, rgba(55, 0, 60, 0) 100%);
+	position: absolute;
+	z-index: 4;
+	bottom: 0;
+	display: block;
+}
+
+img.logotype:after
+{
+ 	content: 'coucou';
+ 	width: 41px;
+ 	height: 8px;
+ 	color: #00ff77;
+ 	display: block;
+}
