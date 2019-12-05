@@ -254,7 +254,7 @@ div.gradient
 
 img.logotype:after
 {
- 	content: 'coucou';
+ 	content: '';
  	width: 41px;
  	height: 8px;
  	color: #00ff77;
