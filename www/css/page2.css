@@ -1,0 +1,22 @@
+div.page2 section:nth-child(1)
+{
+	width: 20%;
+  	height: 100vh;
+  	background-color: rgba(55, 0, 60, 0.9);
+  	display: flex;
+  	justify-content: flex-end;
+}
+
+div.page2 section:nth-child(1) img
+{
+	margin-right: 32px;
+}
+
+div.page2 section:nth-child(2)
+{
+	width: 80%;
+}
+
+div.page2{
+	display: flex;
+}
