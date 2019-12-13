@@ -18,6 +18,7 @@ div.page2 section:nth-child(2)
 	width: 80%;
 	background-color: #FFF;
 	padding: 0 176px;
+	overflow: auto;
 }
 
 div.page2
@@ -128,7 +129,7 @@ div.page2 div.classement_header div.picto
 div.page2 div.classement_header div, div.page2 div.classement_content div
 {
 	width: 135px;
-  	margin-right: 30px;
+  	margin-right: 50px;
 }
 
 div.page2 div.classement_header div.name, div.page2 div.classement_content div.name
@@ -172,6 +173,7 @@ div.page2 div.classement_content
   	border: solid 1px #e8e8e8;
   	display: flex;
   	align-items: center;
+  	margin-bottom: 8px;
 }
 
 div.page2 div.classement_content div.nationality

@@ -11,6 +11,37 @@ auto-complétion
 display : grid
 
 overflow: hidden pour enlever barre de scroll générale;
+
+
+créer un compte sur l'api, noter les URL, faire une clé coté php
+Plusieurs fichiers php possibles : 1 pour equipes, noms, etc...;
+1 FICHIER PAR APPEL
+
+quand on a trouvé la requete qu'on veut : clic droit : generer code php;
+
+tester les url dans insomnia (GET)
+
+clé dans header
+
+pour injecter dans html : requete ajax :permet de lancer une requete de maniere asynchrone (contrairement au php). Permet de lancer des requetes sans que le site se recharge : modifier la vue snas recharger le site;
+
+ex : team.php ==> team.js ==> index.html;
+quand on clique sur tel element : écouteur d'evenement dans le js qui va appeler le php;
+
+clic droit sur get à gauche : Js, JQuery;
+Modifier l'url de l'ajax en localhost.
+
+taper dans google moustache.js pour modele de templating
+recuperer un tableau 
+boucler 1 seul bloc
+
+externaliser html
+
+faire un tableau dynamique (for each...)
+
+appel ajax vers notre template avec comme parametre notre tableau
+
+BIEN LIRE LA DOC DE L API ET DE MOUSTACHE
 */
 
 body
@@ -185,7 +216,8 @@ div.page1 section:nth-child(2)
 	width: 30%;
 	background-image: url("../images/shape-premier-league.svg");
 	background-color: #37003c;
-	background-position: top 200px left 0;
+	background-position: top 200px right 0;
+	background-size: auto 400px;
   	height: 100vh;
   	overflow: auto;
   	background-repeat: no-repeat;
