@@ -65,7 +65,7 @@ div.page1
 	z-index: 1;
 }
 
-nav .div_img
+nav div.img_container
 {
  	margin-right: 80px;
  	height: 100%;
@@ -86,7 +86,7 @@ nav div.wrap{
 	align-items: center;
 }
 
-div.div_section1
+div.section1_content
 {
 	border-radius: 20px;
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
@@ -135,7 +135,7 @@ div.page1 section:nth-child(1)
   	overflow: auto;
 }
 
-div.case
+div.square
 {
 	width: 188px;
 	height: 176px;
@@ -149,20 +149,20 @@ div.case
 	transition-duration: .2s; 
 }
 
-div.case:hover
+div.square:hover
 {
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
 	border: solid 0.9px rgba(0, 0, 0, 0);
 	transition-duration: .2s; 
 }
 
-div.case img
+div.square img
 {
 	width: 40.4px;
 	margin-bottom: 8px;
 }
 
-div.case p
+div.square p
 {
 	width: 156px;
 	height: 24px;
@@ -187,7 +187,7 @@ div.grid
 	grid-row-gap: 16px;
 }
 
-.div_img.active:after
+div.img_container.active:after
 {
  	content: '';
  	width: 41px;
@@ -199,12 +199,12 @@ div.grid
  	bottom: 0;
 }
 
-.div_img svg path
+div.img_container svg path
 {
 	 fill: #c3b2c4;
 }
 
-.div_img.active svg path
+div.img_container.active svg path
 {
 	 fill: #00ff77;
 }
@@ -243,13 +243,13 @@ div.page1 header img
 	width: 68px;
 }
 
-div.page1 div.classement_container
+div.page1 div.ranks_container
 {
 	width: 100%;
 	margin-top:-30px;
 }
 
-div.page1 div.classement_container h1
+div.page1 div.ranks_container h1
 {
 
 	opacity: 0.1;
@@ -264,7 +264,7 @@ div.page1 div.classement_container h1
 	margin-bottom: 16px;
 }
 
-div.page1 div.classement_content
+div.page1 div.rank
 {
 	border-bottom: 1px solid rgba(255, 255, 455, .1);
 	font-size: 14px;
@@ -281,12 +281,12 @@ div.page1 div.classement_content
 	z-index: 3;
 }
 
-div.page1 div.classement_content div.logo img
+div.page1 div.rank div.logo img
 {
 	width: 17px;
 }
 
-div.page1 div.classement_content span
+div.page1 div.rank span
 {
 	width: 4px;
 	height: 4px;
@@ -308,7 +308,7 @@ div.points
 	margin-left: auto;
 }
 
-div.classement
+div.ranks
 {
 	border-top: 1px solid rgba(255, 255, 455, .1);
 }

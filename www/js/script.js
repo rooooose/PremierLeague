@@ -6,7 +6,7 @@ $(document).ready(function(){
           $('.page2').toggleClass("active");
         });
 
-        $( '.croix' ).click(function() {
+        $( '.cross' ).click(function() {
           $('.page2').toggleClass("active");
         });
       }
@@ -14,9 +14,9 @@ $(document).ready(function(){
 
 
 	  function modifMenu(){
-        $( '.div_img' ).click(function() {
+        $( '.img_container' ).click(function() {
           $(this).addClass("active");
-          $('.div_img').not(this).removeClass("active");
+          $('.img_container').not(this).removeClass("active");
         });
 
 

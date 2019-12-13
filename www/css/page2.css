@@ -98,12 +98,12 @@ div.page2 form
 	padding: 97.5px 0 16px 0;
 }
 
-div.page2 div.classement_container
+div.page2 div.ranks_container
 {
 	margin-top: 39px;
 }
 
-div.page2 div.classement_header
+div.page2 div.ranks_header
 {
 	display: flex;
 
@@ -118,7 +118,7 @@ div.page2 div.classement_header
 	margin-bottom: 8px;
 }
 
-div.page2 div.classement_header div.picto
+div.page2 div.ranks_header div.picto
 {
 	text-align: center;
 	margin-left: 16px;
@@ -126,18 +126,18 @@ div.page2 div.classement_header div.picto
   	height: 16px;
 }
 
-div.page2 div.classement_header div, div.page2 div.classement_content div
+div.page2 div.ranks_header div, div.page2 div.rank div
 {
 	width: 135px;
   	margin-right: 50px;
 }
 
-div.page2 div.classement_header div.name, div.page2 div.classement_content div.name
+div.page2 div.ranks_header div.name, div.page2 div.rank div.name
 {
 	margin-right: 113px;
 }
 
-div.page2 div.classement_content div.picto span
+div.page2 div.rank div.picto span
 {
 	font-family: Roboto;
     font-size: 14px;
@@ -158,7 +158,7 @@ div.page2 div.classement_content div.picto span
     transform: translateY(25%);
 }
 
-div.page2 div.classement_content div.picto 
+div.page2 div.rank div.picto 
 {
 	position: relative;
 	width: 37px;
@@ -166,7 +166,7 @@ div.page2 div.classement_content div.picto
 
 }
 
-div.page2 div.classement_content
+div.page2 div.rank
 {
 	padding: 20px 0 20px 16px;
 	border-radius: 5px;
@@ -176,20 +176,20 @@ div.page2 div.classement_content
   	margin-bottom: 8px;
 }
 
-div.page2 div.classement_content div.nationality
+div.page2 div.rank div.nationality
 {
 	display: flex;
 	align-items: center;
 } 
 
-div.page2 div.classement_content div.nationality img
+div.page2 div.rank div.nationality img
 {
 	width: 24px;
   	height: 16px;
   	margin-right: 8px;
 }
 
-div.page2 div.classement_content div.name p
+div.page2 div.rank div.name p
 {
 
     font-family: Roboto;
@@ -202,7 +202,7 @@ div.page2 div.classement_content div.name p
     color: #37003c;
 }
 
-div.page2 div.classement_content div p
+div.page2 div.rank div p
 {
 	font-family: Roboto;
     font-size: 14px;
