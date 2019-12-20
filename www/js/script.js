@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 
       function apparitionPage2(){
-        $( '.case' ).click(function() {
+        $( '.square' ).click(function() {
           $('.page2').toggleClass("active");
         });
 

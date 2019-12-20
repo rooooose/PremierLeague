@@ -38,6 +38,11 @@ boucler 1 seul bloc
 externaliser html
 
 faire un tableau dynamique (for each...)
+clubs[0]
+		[name]
+		[logo]
+		[id]
+	 [1]
 
 appel ajax vers notre template avec comme parametre notre tableau
 
