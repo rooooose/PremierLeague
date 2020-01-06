@@ -1,19 +1,20 @@
 $(document).ready(function(){
 
+$('body').on('click','.square', function() {
 
-      function apparitionPage2(){
+function apparitionPage2(){
         $( '.square' ).click(function() {
-          $('.page2').toggleClass("active");
+          $('.page2').addClass("active");
         });
 
         $( '.cross' ).click(function() {
-          $('.page2').toggleClass("active");
+          $('.page2').removeClass("active");
         });
       }
       apparitionPage2();
 
 
-	  function modifMenu(){
+    function modifMenu(){
         $( '.img_container' ).click(function() {
           $(this).addClass("active");
           $('.img_container').not(this).removeClass("active");
@@ -23,4 +24,10 @@ $(document).ready(function(){
       }
       modifMenu();
       
-    });
+   
+
+})
+
+ });
+
+      
