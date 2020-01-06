@@ -214,6 +214,26 @@ div.img_container.active svg path
 	 fill: #00ff77;
 }
 
+div.img_container 
+{
+	 width:40px;
+}
+
+div.img_container img 
+{
+	 filter: grayscale(1);
+}
+
+div.img_container.active img 
+{
+	 filter: grayscale(0);
+}
+
+div.square:last-of-type
+{
+	margin-bottom: 63px;
+}
+
 /*Section 2*/
 
 div.page1 section:nth-child(2)

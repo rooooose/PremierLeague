@@ -1,0 +1,7 @@
+
+{{#teams}}
+	<div class="square">
+		<img src="{{crestUrl}}">
+		<p>{{name}}</p>
+	</div>
+{{/teams}}

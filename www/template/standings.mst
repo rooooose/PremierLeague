@@ -1,0 +1,17 @@
+{{#standings}}
+	<div class="rank">
+		<div class="chiffre">
+			<p>{{position}}</p>
+		</div>
+		<span></span>
+		<div class="logo">
+			<img src="{{team.crestUrl}}">
+		</div>
+		<div class="nom">
+			<p>{{team.name}}</p>
+		</div>
+		<div class="points">
+			<p>{{points}} pts</p>
+		</div>
+	</div>
+{{/standings}}
