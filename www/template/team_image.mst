@@ -1,0 +1,9 @@
+{{#team}}
+	<img src="{{crestUrl}}">
+	<div>
+		<h1>{{name}}</h1>
+		<p>{{venue}}</p>
+		<p><span>Official website : </span><span>{{website}}</span></p>
+		<p><span>Head Coach : </span><span>Unai Emery</span></p>
+	</div>
+{{team}}
