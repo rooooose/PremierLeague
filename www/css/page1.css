@@ -123,6 +123,11 @@ form
   border: 0;
 }
 
+::placeholder
+{
+	color: #e8e8e8;
+}
+
 form input.button
 {
 	border:none;
@@ -204,29 +209,19 @@ div.img_container.active:after
  	bottom: 0;
 }
 
-div.img_container svg path
+div.img_container svg path, div.img_container polygon
 {
 	 fill: #c3b2c4;
 }
 
-div.img_container.active svg path
+div.img_container.active svg path, div.img_container.active polygon
 {
 	 fill: #00ff77;
 }
 
 div.img_container 
 {
-	 width:40px;
-}
-
-div.img_container img 
-{
-	 filter: grayscale(1);
-}
-
-div.img_container.active img 
-{
-	 filter: grayscale(0);
+	 width:42px;
 }
 
 div.square:last-of-type

@@ -16,6 +16,7 @@ $(document).ready(function(){
 	    var rendered = Mustache.render(template, {teams: response.teams});
 	    $('.grid').html(rendered);
 	  });
+
 	});
 
 });
