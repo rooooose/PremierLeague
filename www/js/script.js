@@ -12,6 +12,16 @@ function apparition_page2(){
         });
       }
       apparition_page2();
+
+      function updateURL() {
+        $( '.square' ).click(function() {
+          if (history.pushState) {
+              var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?id='+$(this).attr('data-id');
+              window.history.pushState({path:newurl},'',newurl);
+          }
+      });
+    }
+    updateURL();
     
 })
 

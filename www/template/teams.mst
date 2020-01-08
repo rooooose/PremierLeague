@@ -1,6 +1,6 @@
 
 {{#teams}}
-	<div class="square">
+	<div class="square" data-id={{id}}>
 		<img src="{{crestUrl}}">
 		<p>{{name}}</p>
 	</div>
