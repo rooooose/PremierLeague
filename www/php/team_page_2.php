@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://api.football-data.org/v2/competitions/2021/teams?id=57",
+  CURLOPT_URL => "http://api.football-data.org/v2/teams/57",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -26,3 +26,6 @@ if ($err) {
 } else {
   echo $response;
 }
+
+
+

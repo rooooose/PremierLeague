@@ -13,10 +13,12 @@ function apparition_page2(){
       }
       apparition_page2();
 
+      $id=$(this).attr('data-id');
+
       function updateURL() {
         $( '.square' ).click(function() {
           if (history.pushState) {
-              var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?id='+$(this).attr('data-id');
+              var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?id='+$id;
               window.history.pushState({path:newurl},'',newurl);
           }
       });

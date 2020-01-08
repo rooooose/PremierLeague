@@ -7,8 +7,13 @@
 	}
 
 	$.ajax(settings).done(function (response) {
+
+		$id="57";
 		response =JSON.parse(response);
 	  console.log(response);
+	  	//$_GET['id'] = (int) $_GET['id'];
+		//$id= $_GET['id'];
+
 
 	  /*$.get('template/teams.mst', function(template) {
 	    var rendered = Mustache.render(template, {teams: response.teams});
