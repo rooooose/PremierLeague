@@ -2,8 +2,12 @@
 
 $curl = curl_init();
 
+
+
+
+
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://api.football-data.org/v2/teams/57",
+  CURLOPT_URL => "http://api.football-data.org/v2/teams/".$_GET['id'],
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -18,6 +22,7 @@ curl_setopt_array($curl, array(
 
 $response = curl_exec($curl);
 $err = curl_error($curl);
+
 
 curl_close($curl);
 
