@@ -28,6 +28,9 @@ function apparition_page2(){
 })
 
     function modif_menu(){
+      
+        $('.img_container:first-of-type').addClass("active");
+
         $( '.img_container' ).click(function() {
           $(this).addClass("active");
           $('.img_container').not(this).removeClass("active");
