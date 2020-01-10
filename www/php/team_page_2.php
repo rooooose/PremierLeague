@@ -3,11 +3,12 @@
 $curl = curl_init();
 
 
-
+$_GET['id']=(int)$_GET['id'];
+$id=$_GET['id'];
 
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://api.football-data.org/v2/teams/".$_GET['id'],
+  CURLOPT_URL => "http://api.football-data.org/v2/teams/".$id,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,

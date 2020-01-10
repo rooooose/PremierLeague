@@ -1,0 +1,21 @@
+{{#squad}}
+	<div class="rank">
+		<div class="picto">
+			<span>{{shirtNumber}}</span>
+			<img src="images/goalkeeper.svg" alt="t-shirt">
+		</div>
+		<div class="name">
+			<p>{{name}}</p>
+		</div>
+		<div class="nationality">
+			<img src="images/germany.svg" alt="t-shirt">
+			<p>{{nationality}}</p>
+		</div>
+		<div class="birth">
+			<p>{{dateOfBirth}} ({{age}})</p>
+		</div>
+		<div class="position">
+			<p>{{position}}</p>
+		</div>
+	</div>
+{{/squad}}

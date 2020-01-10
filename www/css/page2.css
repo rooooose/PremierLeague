@@ -176,6 +176,11 @@ div.page2 div.rank
   	margin-bottom: 8px;
 }
 
+div.page2 div.rank.active
+{
+	display: none;
+}
+
 div.page2 div.rank div.nationality
 {
 	display: flex;
