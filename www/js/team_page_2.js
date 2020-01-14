@@ -17,8 +17,9 @@ $('body').on('click','.square', function() {
         	var settings = {
 			  "async": true,
 			  "crossDomain": true,
-			  "url": "./php/team_page_2.php/?id="+id_team,
+			  "url": "./php/team_page_2.php",
 			  "method": "GET",
+			  "data":{"id" : id_team}
 			}
 
 			$.ajax(settings).done(function (response) {
