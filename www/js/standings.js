@@ -1,7 +1,7 @@
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "http://localhost/PremierLeague/www/php/standings.php",
+  "url": "./php/standings.php",
   "method": "GET",
   "headers": {
     "x-auth-token": "e5b6726b819e4b72ab592afb5cc3f151"

@@ -17,7 +17,7 @@ $('body').on('click','.square', function() {
         	var settings = {
 			  "async": true,
 			  "crossDomain": true,
-			  "url": "http://localhost/PremierLeague/www/php/team_page_2.php/?id="+id_team,
+			  "url": "./php/team_page_2.php/?id="+id_team,
 			  "method": "GET",
 			}
 
@@ -68,7 +68,7 @@ $('body').on('click','.square', function() {
 
 			  $.get('template/squad.mst', function(template) {
 					   	var rendered = Mustache.render(template, {squad: response.squad});
-					    $('.ranks_container').html(rendered);
+					    $('.page2 .ranks_container').html(rendered);
 			  });
 
 

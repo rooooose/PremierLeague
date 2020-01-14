@@ -22,6 +22,13 @@ function apparition_page2(){
               window.history.pushState({path:newurl},'',newurl);
           }
       });
+
+        $( '.cross' ).click(function() {
+          if (history.pushState) {
+              var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+              window.history.pushState({path:newurl},'',newurl);
+          }
+        });
     }
     updateURL();
     

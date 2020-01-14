@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var settings = {
 	  "async": true,
 	  "crossDomain": true,
-	  "url": "http://localhost/PremierLeague/www/php/teams.php",
+	  "url": "./php/teams.php",
 	  "method": "GET",
 	}
 
