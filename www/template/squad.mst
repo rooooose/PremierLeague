@@ -2,13 +2,13 @@
 	<div class="rank">
 		<div class="picto">
 			<span>{{shirtNumber}}</span>
-			<img src="images/goalkeeper.svg" alt="t-shirt">
+			<img src="images/{{position}}.svg" alt="t-shirt">
 		</div>
 		<div class="name">
 			<p>{{name}}</p>
 		</div>
 		<div class="nationality">
-			<img src="images/germany.svg" alt="t-shirt">
+			<img src="images/flags/{{nationality}}.png" alt="drapeau">
 			<p>{{nationality}}</p>
 		</div>
 		<div class="birth">
